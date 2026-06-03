@@ -1,0 +1,13 @@
+build/
+install/
+log/
+
+
+# Ignore Python cache compilation files
+**/__pycache__/
+*.pyc
+
+# Ignore ROS2 local build artifacts if they ever accidentally get generated inside the source folder
+.pytest_cache/
+# Block the massive VS Code internal cache folder
+.vscode/
